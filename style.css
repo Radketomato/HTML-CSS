@@ -1,5 +1,30 @@
-.header {
-    display: flex;
+* {
+    margin: 0 auto;
 }
 
-;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_form {
+    display: inline-block;
+}
+
+.top_menu {
+    text-align: center;
+}
+
+.offers {
+    display: flex;
+}
